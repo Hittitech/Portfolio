@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: rgb(36, 33, 33);
+    text-align: center;
+    padding: 1%;
+    margin:  0 0 15% 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    margin: 1%;
+    font-size: 90%;
+    
+    
+
+}
+nav a:hover{
+        color: rgb(140, 244, 209);
+}
+/* --------------------------------------------------- */
+#main{
+    margin: auto;
+    text-align: center;
+    width: 100vw;
+    height: 88vh;
+    background-color: rgb(255, 254, 254);
+}
+.info{
+    background-color: rgb(241, 211, 198);
+    width: 100vw;
+    height:55vh;
+    position: relative;
+    margin: auto ;
+    padding-top: 2%;
+    top: 11%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(30, 8, 55);
+}
+.info button{
+    margin:3% 2%;
+    padding: 1% 6%;
+    border-radius: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(178, 182, 185);
+    
+}
+.container1{
+    width: 100vw;
+    background-color: rgb(37, 33, 37);
+    height: 55vh;
+    
+}
+#main .container1 span{
+    color: rgb(9, 3, 31);
+    font-size: 4rem;
+
+    
+
+    
+}
+/*    ----------------------                           ---------------------------------------------------              - */
+
+.contact {
+    width: 100vw;
+    background-color: rgb(25, 27, 27);
+    height: 53vh;
+
+}
+.contact .info2{
+    background-color: rgb(24, 227, 227);
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    margin: auto  ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.contact .about{
+    padding: 2% 3%;
+    margin-left: 25%;
+    text-align: left;
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.contact .aboutTitle{
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact img{
+  min-width: 155px;
+    height: 148px;
+    border-radius: 50%;
+    margin: 65% ;
+    margin-left: 180%;
+    
+    /* height: 20%; */
+}
+/* -----------------------------------------------------------*/
+.education{
+    height: 55%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 240, 243)  ;
+}
+.education .title{
+        margin: 6% 3%;
+        margin-left: 20%;
+
+}
+.education .college{
+    text-align: left;
+    margin: 6% 3%;
+    margin-left: 7%;
+    padding-right: 15%;
+}
+
+/* ------------------------------------------------------------------ */
+/* .footer{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+    background-color: blueviolet;
+    text-align: center;
+    color: aliceblue;
+    justify-content: space-between;
+    
+
+} */
